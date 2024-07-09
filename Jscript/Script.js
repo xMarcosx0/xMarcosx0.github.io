@@ -43,9 +43,6 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
           case 'Veterinario':
             window.location.href = '../Html/veterinario.html';
             break;
-          default:
-            alert('No se ha definido una redirección para este usuario.');
-            break;
         }
       } else {
         alert('Usuario o contraseña incorrectos.');
